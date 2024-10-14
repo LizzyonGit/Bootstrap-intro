@@ -60,3 +60,14 @@ min-height:auto;
 .sharp-corners, .sharp-corners * {
     border-radius:0;
 }
+
+.final-challenge {
+    background-color: #1f7798;
+    border:#1f7798;
+}
+
+.final-challenge:hover{
+    background-color: #1d6d8a;
+    border:#1d6d8a;
+}
+
