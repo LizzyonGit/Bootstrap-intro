@@ -32,8 +32,8 @@ h1, h2 {
 }
 
 #hero {
-    background: url("../images/hero2.png") 20% 80% #dbdcde;
+    background: url("../images/hero2.png") 50% 70% #dbdcde;
     padding: 5% 7%;
     min-height:500px;
-    /*background-position: 50% 70%;*/
+    background-size: cover;/*this is vital for it to work!*/
 }
