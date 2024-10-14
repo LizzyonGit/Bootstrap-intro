@@ -37,3 +37,22 @@ h1, h2 {
     min-height:500px;
     background-size: cover;/*this is vital for it to work!*/
 }
+
+#portfolio .card-title {
+    color:#1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text {
+    min-height:120px;
+}
+
+@media screen and (min-width:1200px){
+    #portfolio .card-text {
+min-height:auto;
+}
+}
