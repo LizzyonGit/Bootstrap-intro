@@ -199,19 +199,21 @@
       <div class="modal-body">
         <p mb-3>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your inbox.</p>
       
-        <form class="container p-0">
-          <div class="row">
-        <div class="mb-3 col-md-6">
+        <form class="row g-3">
+          
+        <div class="col-md-6">
     <label for="name" class="form-label">Name</label>
     <input type="text" class="form-control" id="name">
   </div>
-  <div class="mb-3 col-md-6">
+  <div class="col-md-6">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
-    </div>
+  <!--I don't understand why adding this div makes the button small everywhere-->
+    <div class="col-12 mb-4">
 
   <button type="submit" class="btn btn-primary">Sign up</button>
+</div>
 </form>
       
       </div>
