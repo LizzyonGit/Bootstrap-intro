@@ -32,9 +32,9 @@ h1, h2 {
 }
 
 #hero {
-    background: url("../images/hero.webp")  50% 70% no-repeat #dbdcde;
+    background: url("../images/hero2.png") 50% 70% no-repeat #dbdcde;
     padding: 5% 7%;
     min-height:500px;
-    /*background-image: url("../images/background.webp");
-    background-position: 50% 70%;*/
+    width:100%;
+    /*background-position: 50% 70%;*/
 }
